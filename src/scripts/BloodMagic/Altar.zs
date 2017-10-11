@@ -26,7 +26,7 @@ addRecipe(cobble, sand, 1,200,1,1);
 addRecipe(netherrack,cobble, 1,400,1,1);
 addRecipe(endstone,netherrack, 1,500,1,1);
 addRecipe(glass*4,sandstone, 1,1000,20,20);
-addRecipe(stringitem,oakLeaves, 1,500,1,1);
+addRecipe(stringitem,oakLeaves, 1,50,1,1);
 addRecipe(lavabuck,lifebuck, 1,1500,5,5);
 addRecipe(waterbuck,lavabuck, 1,1500,5,5);
 addRecipe(apple,oaksap, 1,20,20,20);

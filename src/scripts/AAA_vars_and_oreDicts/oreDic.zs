@@ -6,7 +6,6 @@ slab.add(<ExtrabiomesXL:slabRedRock>);
 
 
 val cob = <ore:cobblestone>;
-cob.remove(<MineFactoryReloaded:stone:2>);
 
 val woodSplinter = <ore:woodSplinter>;
 woodSplinter.add(splinterBirch);

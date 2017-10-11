@@ -35,7 +35,14 @@
       2000
     ]
   },
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "pizzaluc.mods.Aggro_Wolfs",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "thaumcraft.common.entities.monster.EntityInhabitedZombie",

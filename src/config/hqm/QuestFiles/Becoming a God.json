@@ -635,7 +635,7 @@
       "reward": [
         {
           "id": "TConstruct:shovel",
-          "nbt": "{InfiTool:{BaseDurability:100000,Head:501,BaseAttack:52,Built:1b,HarvestLevel:5,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:100000,Modifiers:18},display:{Name:\"§fInfinity Shovel\"}}"
+          "nbt": "{InfiTool:{BaseDurability:100000,Head:501,BaseAttack:52,Built:1b,HarvestLevel:5,Attack:52,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,MiningSpeed:6000,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:100000,Modifiers:18},display:{Name:\"ï¿½fInfinity Shovel\"}}"
         }
       ]
     },
@@ -683,7 +683,7 @@
       "reward": [
         {
           "id": "TConstruct:cleaver",
-          "nbt": "{InfiTool:{RenderExtra:501,MiningSpeed2:6000,BaseDurability:562500,Head:501,BaseAttack:56,Built:1b,HarvestLevel:5,Attack:56,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,Unbreaking:10,Damage:0,HarvestLevel2:5,BonusDurability:0,TotalDurability:562500,Modifiers:23},display:{Name:\"§fInfinity Cleaver\"}}"
+          "nbt": "{InfiTool:{RenderExtra:501,MiningSpeed2:6000,BaseDurability:562500,Head:501,BaseAttack:56,Built:1b,HarvestLevel:5,Attack:56,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,Extra:501,MiningSpeed:6000,RenderAccessory:501,Unbreaking:10,Damage:0,HarvestLevel2:5,BonusDurability:0,TotalDurability:562500,Modifiers:23},display:{Name:\"ï¿½fInfinity Cleaver\"}}"
         },
         {
           "id": "Avaritia:infinitato"

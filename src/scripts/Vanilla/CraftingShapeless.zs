@@ -5,7 +5,6 @@ import minetweaker.item.IItemStack;
 recipes.addShapeless(obbyTotem, [obbyTile, obbyTile, obbyTile, obbyTile]);
 recipes.addShapeless(bonemeal * 3, [bone1]);
 recipes.addShapeless(redstone, [lavabuck, sandOredict]);
-recipes.addShapeless(wool, [sheepEssence, sheepEssence, oreTierMinicoEssence, oreTierMinicoEssence, oreTierMinicoEssence,oreTierMinicoEssence, oreTierMinicoEssence, oreTierMinicoEssence, oreTierMinicoEssence]);
 
 
 //Logs into Splinters
@@ -29,7 +28,7 @@ recipes.addShapeless(splinterBaldCypress * 4,[logBaldCypress]);
 recipes.addShapeless(splinterFir * 4,[logFir]);
 recipes.addShapeless(splinterTaint * 4,[logTaint]);
 recipes.addShapeless(splinterExtraAcacia * 4,[logExtraAcacia]);
-
+recipes.addShapeless(elevator_white, [<ore:blockElevator>, <ore:dyeWhite>]);
 
 //MagicalCrops blocks -> Essence
 recipes.addShapeless(minicioEssence * 9, [minicoBlock]);

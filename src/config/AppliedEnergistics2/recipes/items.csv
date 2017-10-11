@@ -44,6 +44,7 @@ minecraft:sandstone:0, Sandstone
 minecraft:sandstone:1, Chiseled Sandstone
 minecraft:sandstone:2, Smooth Sandstone
 minecraft:noteblock, Note Block
+DragonAPI:minecraft:bed_technical, Bed
 minecraft:golden_rail, Powered Rail
 minecraft:detector_rail, Detector Rail
 minecraft:sticky_piston, Sticky Piston
@@ -52,6 +53,7 @@ minecraft:tallgrass:1, Grass
 minecraft:tallgrass:2, Fern
 minecraft:deadbush, Dead Bush
 minecraft:piston, Piston
+DragonAPI:minecraft:piston_head_technical, tile.null.name
 minecraft:wool:0, Wool
 minecraft:wool:1, Orange Wool
 minecraft:wool:2, Magenta Wool
@@ -99,19 +101,27 @@ minecraft:fire, Fire
 minecraft:mob_spawner:0, Monster Spawner
 minecraft:oak_stairs, Oak Wood Stairs
 minecraft:chest, Chest
+DragonAPI:minecraft:redstone_wire_technical, Redstone Dust
 minecraft:diamond_ore, Diamond Ore
 minecraft:diamond_block, Block of Diamond
 minecraft:crafting_table, Crafting Table
+DragonAPI:minecraft:wheat_technical, Crops
 minecraft:farmland, Farmland
 minecraft:furnace, Furnace
 minecraft:lit_furnace, Furnace
+DragonAPI:minecraft:standing_sign_technical, Sign
+DragonAPI:minecraft:wooden_door_technical, Wooden Door
 minecraft:ladder, Ladder
 minecraft:rail, Rail
 minecraft:stone_stairs, Stone Stairs
+DragonAPI:minecraft:wall_sign_technical, Sign
 minecraft:lever, Lever
 minecraft:stone_pressure_plate, Pressure Plate
+DragonAPI:minecraft:iron_door_technical, Iron Door
 minecraft:wooden_pressure_plate, Pressure Plate
 minecraft:redstone_ore, Redstone Ore
+DragonAPI:minecraft:lit_redstone_ore_technical, Redstone Ore
+DragonAPI:minecraft:unlit_redstone_torch_technical, Redstone Torch
 minecraft:redstone_torch, Redstone Torch
 minecraft:stone_button, Button
 minecraft:snow_layer:0, Snow
@@ -119,6 +129,7 @@ minecraft:ice, Ice
 minecraft:snow, Snow
 minecraft:cactus, Cactus
 minecraft:clay, Clay
+DragonAPI:minecraft:reeds_technical, Sugar cane
 minecraft:jukebox, Jukebox
 minecraft:fence, Fence
 minecraft:pumpkin, Pumpkin
@@ -127,6 +138,9 @@ minecraft:soul_sand, Soul Sand
 minecraft:glowstone, Glowstone
 minecraft:portal, Portal
 minecraft:lit_pumpkin, Jack o'Lantern
+DragonAPI:minecraft:cake_technical, Cake
+DragonAPI:minecraft:unpowered_repeater_technical, tile.diode.name
+DragonAPI:minecraft:powered_repeater_technical, tile.diode.name
 minecraft:stained_glass:0, White Stained Glass
 minecraft:stained_glass:1, Orange Stained Glass
 minecraft:stained_glass:2, Magenta Stained Glass
@@ -159,6 +173,8 @@ minecraft:red_mushroom_block, Mushroom
 minecraft:iron_bars, Iron Bars
 minecraft:glass_pane, Glass Pane
 minecraft:melon_block, Melon
+DragonAPI:minecraft:pumpkin_stem_technical, tile.pumpkinStem.name
+DragonAPI:minecraft:melon_stem_technical, tile.pumpkinStem.name
 minecraft:vine, Vines
 minecraft:fence_gate, Fence Gate
 minecraft:brick_stairs, Brick Stairs
@@ -168,12 +184,16 @@ minecraft:waterlily, Lily Pad
 minecraft:nether_brick, Nether Brick
 minecraft:nether_brick_fence, Nether Brick Fence
 minecraft:nether_brick_stairs, Nether Brick Stairs
+DragonAPI:minecraft:nether_wart_technical, Nether Wart
 minecraft:enchanting_table, Enchantment Table
+DragonAPI:minecraft:brewing_stand_technical, tile.brewingStand.name
+DragonAPI:minecraft:cauldron_technical, Cauldron
 minecraft:end_portal, tile.null.name
 minecraft:end_portal_frame, End Portal
 minecraft:end_stone, End Stone
 minecraft:dragon_egg, Dragon Egg
 minecraft:redstone_lamp, Redstone Lamp
+DragonAPI:minecraft:lit_redstone_lamp_technical, Redstone Lamp
 minecraft:wooden_slab:0, Oak Wood Slab
 minecraft:wooden_slab:1, Spruce Wood Slab
 minecraft:wooden_slab:2, Birch Wood Slab
@@ -185,6 +205,7 @@ minecraft:sandstone_stairs, Sandstone Stairs
 minecraft:emerald_ore, Emerald Ore
 minecraft:ender_chest, Ender Chest
 minecraft:tripwire_hook, Tripwire Hook
+DragonAPI:minecraft:tripwire_technical, Tripwire
 minecraft:emerald_block, Block of Emerald
 minecraft:spruce_stairs, Spruce Wood Stairs
 minecraft:birch_stairs, Birch Wood Stairs
@@ -193,15 +214,19 @@ minecraft:command_block, Command Block
 minecraft:beacon, Beacon
 minecraft:cobblestone_wall:0, Cobblestone Wall
 minecraft:cobblestone_wall:1, Mossy Cobblestone Wall
+DragonAPI:minecraft:flower_pot_technical, tile.flowerPot.name
 minecraft:carrots, Carrots
 minecraft:potatoes, Potatoes
 minecraft:wooden_button, Button
+DragonAPI:minecraft:skull_technical, tile.skull.name
 minecraft:anvil:0, Anvil
 minecraft:anvil:1, Slightly Damaged Anvil
 minecraft:anvil:2, Very Damaged Anvil
 minecraft:trapped_chest, Trapped Chest
 minecraft:light_weighted_pressure_plate, Weighted Pressure Plate (Light)
 minecraft:heavy_weighted_pressure_plate, Weighted Pressure Plate (Heavy)
+DragonAPI:minecraft:unpowered_comparator_technical, tile.comparator.name
+DragonAPI:minecraft:powered_comparator_technical, tile.comparator.name
 minecraft:daylight_detector, Daylight Sensor
 minecraft:redstone_block, Block of Redstone
 minecraft:quartz_ore, Nether Quartz Ore
@@ -2995,258 +3020,6 @@ CarpentersBlocks:blockCarpentersSlope:3, Carpenter's Prism Slope
 CarpentersBlocks:blockCarpentersSlope:4, Carpenter's Prism Wedge Slope
 CarpentersBlocks:blockCarpentersStairs, Carpenter's Stairs
 CarpentersBlocks:blockCarpentersTorch, Carpenter's Torch
-ci:Bonerock, Bone Rock
-ci:Redrock, Red Rock
-ci:SlindWeed, Slindweed
-ci:WilliWeed, Williweed
-DraconicEvolution:xRayBlock, Distortion Flame
-DraconicEvolution:weatherController, Weather Controller
-DraconicEvolution:sunDial, Sun Dial
-DraconicEvolution:draconiumOre, Draconium Ore
-DraconicEvolution:grinder, Mob Grinder
-DraconicEvolution:potentiometer, Potentiometer
-DraconicEvolution:rainSensor, Rain Sensor
-DraconicEvolution:particleGenerator, Particle Generator
-DraconicEvolution:playerDetector, Player Detector
-DraconicEvolution:playerDetectorAdvanced, Advanced Player Detector
-DraconicEvolution:energyInfuser, Energy Infuser
-DraconicEvolution:customSpawner, Stabilized Mob Spawner
-DraconicEvolution:generator, Generator
-DraconicEvolution:energyStorageCore, Energy Core
-DraconicEvolution:draconium:0, Draconium Block
-DraconicEvolution:draconium:1, Resurrection Stone
-DraconicEvolution:draconium:2, Charged Draconium Block
-DraconicEvolution:invisibleMultiblock, Energy Core
-DraconicEvolution:energyPylon, Energy Pylon
-DraconicEvolution:placedItem, tile.draconicevolution:placedItem.name
-DraconicEvolution:safetyFlame, tile.draconicevolution:safetyFlame.name
-DraconicEvolution:cKeyStone:0, Creative Key Stone
-DraconicEvolution:cKeyStone:1, Creative Key Stone
-DraconicEvolution:cKeyStone:2, Creative Key Stone
-DraconicEvolution:cKeyStone:3, Creative Key Stone
-DraconicEvolution:dissEnchanter, Disenchanter
-DraconicEvolution:teleporterStand, Dislocator Pedestal
-DraconicEvolution:draconiumChest, Draconic Chest
-DraconicEvolution:draconicBlock, Awakened Draconium Block
-DraconicEvolution:energyCrystal:0, Energy Relay
-DraconicEvolution:energyCrystal:1, Advanced Energy Relay
-DraconicEvolution:energyCrystal:2, Energy Transceiver
-DraconicEvolution:energyCrystal:3, Advanced Energy Transceiver
-DraconicEvolution:energyCrystal:4, Wireless Energy Transceiver
-DraconicEvolution:energyCrystal:5, Advanced Wireless Transceiver
-DraconicEvolution:infusedObsidian, Draconium Infused Obsidian
-DraconicEvolution:dislocatorReceptacle, Dislocator Receptacle
-DraconicEvolution:portal, Portal
-DraconicEvolution:reactorCore, Draconic Reactor Core
-DraconicEvolution:flowGate:0, Flux Gate
-DraconicEvolution:flowGate:6, Fluid Gate
-DraconicEvolution:reactorStabilizer, Reactor Stabilizer
-DraconicEvolution:reactorEnergyInjector, Reactor Energy Injector
-DraconicEvolution:chaosCrystal, Chaos Crystal
-DraconicEvolution:upgradeModifier, Upgrade Modifier
-DraconicEvolution:longRangeDislocator:1, Admin Dislocator
-DraconicEvolution:chaosShardAtmos, tile.draconicevolution:chaosShardAtmos.name
-ExtrabiomesXL:leaves_1:0, Umber Autumn Leaves
-ExtrabiomesXL:leaves_1:1, Goldenrod Autumn Leaves
-ExtrabiomesXL:leaves_1:2, Vermillion Autumn Leaves
-ExtrabiomesXL:leaves_1:3, Citrine Autumn Leaves
-ExtrabiomesXL:plants4, Cattail
-ExtrabiomesXL:terrain_blocks2, Cracked Sand
-ExtrabiomesXL:flower1:1, Hydrangea
-ExtrabiomesXL:flower1:2, Buttercups
-ExtrabiomesXL:flower1:3, Lavender
-ExtrabiomesXL:flower1:4, Tiny Cactus
-ExtrabiomesXL:flower1:6, Toad Stool
-ExtrabiomesXL:flower1:7, White Calla Lilies
-ExtrabiomesXL:flower2:0, Allium
-ExtrabiomesXL:flower2:1, Pink Amaryllis
-ExtrabiomesXL:flower2:2, Red Amaryllis
-ExtrabiomesXL:flower2:3, White Amaryllis
-ExtrabiomesXL:flower2:4, Bachelor's Button
-ExtrabiomesXL:flower2:5, Bells of Ireland
-ExtrabiomesXL:flower2:6, Bluebell
-ExtrabiomesXL:flower2:7, Black Calla Lilies
-ExtrabiomesXL:flower2:8, Daisy
-ExtrabiomesXL:flower2:9, Dandelion
-ExtrabiomesXL:flower2:11, Gardenia
-ExtrabiomesXL:flower2:12, Orange Gerbera
-ExtrabiomesXL:flower2:13, Pink Gerbera
-ExtrabiomesXL:flower2:14, Red Gerbera
-ExtrabiomesXL:flower2:15, Yellow Gerbera
-ExtrabiomesXL:flower3:0, Pink Oriental Lily
-ExtrabiomesXL:flower3:1, Blue Iris
-ExtrabiomesXL:flower3:2, Purple Iris
-ExtrabiomesXL:flower3:3, Lily
-ExtrabiomesXL:flower3:4, Marsh Marigold
-ExtrabiomesXL:flower3:5, Pansy
-ExtrabiomesXL:flower3:6, Poppy
-ExtrabiomesXL:flower3:7, Red Rover
-ExtrabiomesXL:flower3:8, Snapdragon
-ExtrabiomesXL:flower3:9, Tulip
-ExtrabiomesXL:flower3:10, Violet
-ExtrabiomesXL:flower3:11, Yarrow
-ExtrabiomesXL:flower3:12, Delphinium Belladonna
-ExtrabiomesXL:flower3:13, Blue Poppy
-ExtrabiomesXL:grass:0, Brown Grass
-ExtrabiomesXL:grass:1, Short Brown Grass
-ExtrabiomesXL:grass:2, Dead Grass
-ExtrabiomesXL:grass:3, Tall Dead Grass
-ExtrabiomesXL:grass:4, Dead Yellow Grass
-ExtrabiomesXL:leaves_4:0, Fir Leaves
-ExtrabiomesXL:leaves_4:1, Redwood Leaves
-ExtrabiomesXL:leaves_4:2, Acacia Leaves
-ExtrabiomesXL:leaves_4:3, Cypress Leaves
-ExtrabiomesXL:leaves_2:0, Bald Cypress Leaves
-ExtrabiomesXL:leaves_2:1, Japanese Maple Leaves
-ExtrabiomesXL:leaves_2:2, Japanese Maple Shrub Leaves
-ExtrabiomesXL:leaves_2:3, Rainbow Eucalyptus Leaves
-ExtrabiomesXL:leaves_3:0, Sakura Leaves
-ExtrabiomesXL:leaf_pile, Leaf Pile
-ExtrabiomesXL:terrain_blocks1:0, Red Rock
-ExtrabiomesXL:terrain_blocks1:1, Red Cobblestone
-ExtrabiomesXL:terrain_blocks1:2, Red Rock Brick
-ExtrabiomesXL:saplings_1:0, Umber Autumn Sapling
-ExtrabiomesXL:saplings_1:1, Goldenrod Autumn Sapling
-ExtrabiomesXL:saplings_1:2, Vermillion Autumn Sapling
-ExtrabiomesXL:saplings_1:3, Citrine Autumn Sapling
-ExtrabiomesXL:saplings_1:4, Fir Sapling
-ExtrabiomesXL:saplings_1:5, Redwood Sapling
-ExtrabiomesXL:saplings_1:6, Acacia Sapling
-ExtrabiomesXL:saplings_1:7, Cypress Sapling
-ExtrabiomesXL:saplings_2:0, Bald Cypress Sapling
-ExtrabiomesXL:saplings_2:1, Japanese Maple Sapling
-ExtrabiomesXL:saplings_2:2, Japanese Maple Shrub Sapling
-ExtrabiomesXL:saplings_2:3, Rainbow Eucalyptus Sapling
-ExtrabiomesXL:saplings_2:4, Sakura Sapling
-ExtrabiomesXL:log1:0, Fir Log
-ExtrabiomesXL:log1:1, Acacia Log
-ExtrabiomesXL:log1:2, Cypress Log
-ExtrabiomesXL:log1:3, Japanese Maple Log
-ExtrabiomesXL:log2:0, Rainbow Eucalyptus Log
-ExtrabiomesXL:log2:1, Autumn Log
-ExtrabiomesXL:log2:2, Bald Cypress Log
-ExtrabiomesXL:log2:3, Redwood Log
-ExtrabiomesXL:mini_log_1, tile.extrabiomes.log.name
-ExtrabiomesXL:cornerlog_baldcypress, Bald Cypress Quarter Log
-ExtrabiomesXL:cornerlog_rainboweucalyptus, Rainbow Eucalyptus Quarter Log
-ExtrabiomesXL:cornerlog_oak, Oak Quarter Log
-ExtrabiomesXL:cornerlog_fir, Fir Quarter Log
-ExtrabiomesXL:cornerlog_redwood, Redwood Quarter Log
-ExtrabiomesXL:log_elbow_baldcypress, Bald Cypress Elbow Log
-ExtrabiomesXL:log_elbow_rainbow_eucalyptus, Rainbow Eucalyptus Elbow Log
-ExtrabiomesXL:vines, Gloriosa
-ExtrabiomesXL:waterplant1:0, Eelgrass
-ExtrabiomesXL:quicksand, Quicksand
-ExtrabiomesXL:planks:0, Redwood Planks
-ExtrabiomesXL:planks:1, Fir Wood Planks
-ExtrabiomesXL:planks:2, Acacia Wood Planks
-ExtrabiomesXL:planks:3, Cypress Wood Planks
-ExtrabiomesXL:planks:4, Japanese Maple Wood Planks
-ExtrabiomesXL:planks:5, Rainbow Eucalyptus Wood Planks
-ExtrabiomesXL:planks:6, Autumn Wood Planks
-ExtrabiomesXL:planks:7, Bald Cypress Wood Planks
-ExtrabiomesXL:planks:8, Sakura Wood Planks
-ExtrabiomesXL:woodslab2:0, Sakura Slab
-ExtrabiomesXL:woodslab:0, Redwood Slab
-ExtrabiomesXL:woodslab:1, Fir Wood Slab
-ExtrabiomesXL:woodslab:2, Acacia Wood Slab
-ExtrabiomesXL:woodslab:3, Cypress Slab
-ExtrabiomesXL:woodslab:4, Japanese Maple Slab
-ExtrabiomesXL:woodslab:5, Rainbow Eucalyptus Slab
-ExtrabiomesXL:woodslab:6, Autumn Slab
-ExtrabiomesXL:woodslab:7, Bald Cypress Slab
-ExtrabiomesXL:stairs.redwood, Redwood Stairs
-ExtrabiomesXL:stairs.fir, Fir Wood Stairs
-ExtrabiomesXL:stairs.acacia, Acacia Wood Stairs
-ExtrabiomesXL:stairs.rainboweucalyptus, Rainbow Eucalyptus Stairs
-ExtrabiomesXL:stairs.cypress, Cypress Stairs
-ExtrabiomesXL:stairs.baldcypress, Bald Cypress Stairs
-ExtrabiomesXL:stairs.japanesemaple, Japanese Maple Stairs
-ExtrabiomesXL:stairs.autumn, Autumn Stairs
-ExtrabiomesXL:stairs.sakurablossom, Sakura Stairs
-ExtrabiomesXL:slabRedRock:0, Red Cobblestone Slab
-ExtrabiomesXL:slabRedRock:1, Red Rock Slab
-ExtrabiomesXL:slabRedRock:2, Red Rock Brick Slab
-ExtrabiomesXL:stairsRedCobble, Red Cobblestone Stairs
-ExtrabiomesXL:redrockbrick, Red Rock Brick Stairs
-ExtrabiomesXL:wall:0, Red Cobblestone Wall
-ExtrabiomesXL:fence:2, Baldcypress Fence
-ExtrabiomesXL:fence:6, Rainbow Eucalyptus Fence
-ExtrabiomesXL:fence:7, Redwood Fence
-ExtrabiomesXL:fence:3, Cypress Fence
-ExtrabiomesXL:fence:1, Autumn Fence
-ExtrabiomesXL:fence:4, Fir Fence
-ExtrabiomesXL:fence:5, Japanese Maple Fence
-ExtrabiomesXL:fence:0, Acacia Fence
-ExtrabiomesXL:fence:8, Sakura Fence
-ExtrabiomesXL:door_acacia, Acacia Door
-ExtrabiomesXL:door_autumn, Autumn Door
-ExtrabiomesXL:door_baldcypress, Baldcypress Door
-ExtrabiomesXL:door_cypress, Cypress Door
-ExtrabiomesXL:door_fir, Fir Door
-ExtrabiomesXL:door_japanesemaple, Japanese Maple Door
-ExtrabiomesXL:door_rainboweucalyptus, Rainbow Eucalyptus Door
-ExtrabiomesXL:door_redwood, Redwood Door
-ExtrabiomesXL:door_sakura, Sakura Door
-ExtrabiomesXL:fencegate_acacia, Acacia Fence Gate
-ExtrabiomesXL:fencegate_autumn, Autumn Fence Gate
-ExtrabiomesXL:fencegate_baldcypress, Baldcypress Fence Gate
-ExtrabiomesXL:fencegate_cypress, Cypress Fence Gate
-ExtrabiomesXL:fencegate_fir, Fir Fence Gate
-ExtrabiomesXL:fencegate_japanesemaple, Japanese Maple Fence Gate
-ExtrabiomesXL:fencegate_rainboweucalyptus, Rainbow Eucalyptus Fence Gate
-ExtrabiomesXL:fencegate_redwood, Redwood Fence Gate
-ExtrabiomesXL:fencegate_sakura, Sakura Fence Gate
-extracells:certustank, extracells.block.certustank.name
-extracells:walrus, Walrus
-extracells:fluidcrafter, ME Fluid Assembler
-extracells:ecbaseblock:0, ME Fluid Interface
-extracells:ecbaseblock:1, ME Fluid Auto Filler
-extracells:hardmedrive, Blast resistant ME Drive [WIP]
-extracells:vibrantchamberfluid, Fluid Vibration Chamber
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:interface, Transvector Interface
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:enchanter, Osmotic Enchanter
-ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
-ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
-ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:platform, Ethereal Platform
-ForbiddenMagic:ArcaneCake, Thaumic Cake
-ForbiddenMagic:WrathCage, Wrath Cage
-ForbiddenMagic:InkFlower, Umbral Rose
-ForbiddenMagic:StarBlock, Nether Star Block
-ForbiddenMagic:UmbralBush, Umbral Rose Bush
-ForbiddenMagic:TaintLog, Tainted Log
-ForbiddenMagic:TaintPlank, Tainted Planks
-ForbiddenMagic:TaintLeaves, Tainted Leaves
-ForbiddenMagic:TaintSapling, Tainted Sapling
-ForbiddenMagic:TaintBlock:0, Tainted Stone
-ForbiddenMagic:TaintBlock:1, Tainted Stone Bricks
 ImmersiveEngineering:ore:0, Copper Ore
 ImmersiveEngineering:ore:1, Bauxite Ore
 ImmersiveEngineering:ore:2, Lead Ore
@@ -3790,6 +3563,254 @@ TConstruct:Redstone.Landmine:1, Landmine
 TConstruct:Redstone.Landmine:2, Landmine
 TConstruct:Redstone.Landmine:3, Landmine
 TConstruct:Armor.DryingRack, Drying Rack
+DraconicEvolution:xRayBlock, Distortion Flame
+DraconicEvolution:weatherController, Weather Controller
+DraconicEvolution:sunDial, Sun Dial
+DraconicEvolution:draconiumOre, Draconium Ore
+DraconicEvolution:grinder, Mob Grinder
+DraconicEvolution:potentiometer, Potentiometer
+DraconicEvolution:rainSensor, Rain Sensor
+DraconicEvolution:particleGenerator, Particle Generator
+DraconicEvolution:playerDetector, Player Detector
+DraconicEvolution:playerDetectorAdvanced, Advanced Player Detector
+DraconicEvolution:energyInfuser, Energy Infuser
+DraconicEvolution:customSpawner, Stabilized Mob Spawner
+DraconicEvolution:generator, Generator
+DraconicEvolution:energyStorageCore, Energy Core
+DraconicEvolution:draconium:0, Draconium Block
+DraconicEvolution:draconium:1, Resurrection Stone
+DraconicEvolution:draconium:2, Charged Draconium Block
+DraconicEvolution:invisibleMultiblock, Energy Core
+DraconicEvolution:energyPylon, Energy Pylon
+DraconicEvolution:placedItem, tile.draconicevolution:placedItem.name
+DraconicEvolution:safetyFlame, tile.draconicevolution:safetyFlame.name
+DraconicEvolution:cKeyStone:0, Creative Key Stone
+DraconicEvolution:cKeyStone:1, Creative Key Stone
+DraconicEvolution:cKeyStone:2, Creative Key Stone
+DraconicEvolution:cKeyStone:3, Creative Key Stone
+DraconicEvolution:dissEnchanter, Disenchanter
+DraconicEvolution:teleporterStand, Dislocator Pedestal
+DraconicEvolution:draconiumChest, Draconic Chest
+DraconicEvolution:draconicBlock, Awakened Draconium Block
+DraconicEvolution:energyCrystal:0, Energy Relay
+DraconicEvolution:energyCrystal:1, Advanced Energy Relay
+DraconicEvolution:energyCrystal:2, Energy Transceiver
+DraconicEvolution:energyCrystal:3, Advanced Energy Transceiver
+DraconicEvolution:energyCrystal:4, Wireless Energy Transceiver
+DraconicEvolution:energyCrystal:5, Advanced Wireless Transceiver
+DraconicEvolution:infusedObsidian, Draconium Infused Obsidian
+DraconicEvolution:dislocatorReceptacle, Dislocator Receptacle
+DraconicEvolution:portal, Portal
+DraconicEvolution:reactorCore, Draconic Reactor Core
+DraconicEvolution:flowGate:0, Flux Gate
+DraconicEvolution:flowGate:6, Fluid Gate
+DraconicEvolution:reactorStabilizer, Reactor Stabilizer
+DraconicEvolution:reactorEnergyInjector, Reactor Energy Injector
+DraconicEvolution:chaosCrystal, Chaos Crystal
+DraconicEvolution:upgradeModifier, Upgrade Modifier
+DraconicEvolution:longRangeDislocator:1, Admin Dislocator
+DraconicEvolution:chaosShardAtmos, tile.draconicevolution:chaosShardAtmos.name
+ExtrabiomesXL:leaves_1:0, Umber Autumn Leaves
+ExtrabiomesXL:leaves_1:1, Goldenrod Autumn Leaves
+ExtrabiomesXL:leaves_1:2, Vermillion Autumn Leaves
+ExtrabiomesXL:leaves_1:3, Citrine Autumn Leaves
+ExtrabiomesXL:plants4, Cattail
+ExtrabiomesXL:terrain_blocks2, Cracked Sand
+ExtrabiomesXL:flower1:1, Hydrangea
+ExtrabiomesXL:flower1:2, Buttercups
+ExtrabiomesXL:flower1:3, Lavender
+ExtrabiomesXL:flower1:4, Tiny Cactus
+ExtrabiomesXL:flower1:6, Toad Stool
+ExtrabiomesXL:flower1:7, White Calla Lilies
+ExtrabiomesXL:flower2:0, Allium
+ExtrabiomesXL:flower2:1, Pink Amaryllis
+ExtrabiomesXL:flower2:2, Red Amaryllis
+ExtrabiomesXL:flower2:3, White Amaryllis
+ExtrabiomesXL:flower2:4, Bachelor's Button
+ExtrabiomesXL:flower2:5, Bells of Ireland
+ExtrabiomesXL:flower2:6, Bluebell
+ExtrabiomesXL:flower2:7, Black Calla Lilies
+ExtrabiomesXL:flower2:8, Daisy
+ExtrabiomesXL:flower2:9, Dandelion
+ExtrabiomesXL:flower2:11, Gardenia
+ExtrabiomesXL:flower2:12, Orange Gerbera
+ExtrabiomesXL:flower2:13, Pink Gerbera
+ExtrabiomesXL:flower2:14, Red Gerbera
+ExtrabiomesXL:flower2:15, Yellow Gerbera
+ExtrabiomesXL:flower3:0, Pink Oriental Lily
+ExtrabiomesXL:flower3:1, Blue Iris
+ExtrabiomesXL:flower3:2, Purple Iris
+ExtrabiomesXL:flower3:3, Lily
+ExtrabiomesXL:flower3:4, Marsh Marigold
+ExtrabiomesXL:flower3:5, Pansy
+ExtrabiomesXL:flower3:6, Poppy
+ExtrabiomesXL:flower3:7, Red Rover
+ExtrabiomesXL:flower3:8, Snapdragon
+ExtrabiomesXL:flower3:9, Tulip
+ExtrabiomesXL:flower3:10, Violet
+ExtrabiomesXL:flower3:11, Yarrow
+ExtrabiomesXL:flower3:12, Delphinium Belladonna
+ExtrabiomesXL:flower3:13, Blue Poppy
+ExtrabiomesXL:grass:0, Brown Grass
+ExtrabiomesXL:grass:1, Short Brown Grass
+ExtrabiomesXL:grass:2, Dead Grass
+ExtrabiomesXL:grass:3, Tall Dead Grass
+ExtrabiomesXL:grass:4, Dead Yellow Grass
+ExtrabiomesXL:leaves_4:0, Fir Leaves
+ExtrabiomesXL:leaves_4:1, Redwood Leaves
+ExtrabiomesXL:leaves_4:2, Acacia Leaves
+ExtrabiomesXL:leaves_4:3, Cypress Leaves
+ExtrabiomesXL:leaves_2:0, Bald Cypress Leaves
+ExtrabiomesXL:leaves_2:1, Japanese Maple Leaves
+ExtrabiomesXL:leaves_2:2, Japanese Maple Shrub Leaves
+ExtrabiomesXL:leaves_2:3, Rainbow Eucalyptus Leaves
+ExtrabiomesXL:leaves_3:0, Sakura Leaves
+ExtrabiomesXL:leaf_pile, Leaf Pile
+ExtrabiomesXL:terrain_blocks1:0, Red Rock
+ExtrabiomesXL:terrain_blocks1:1, Red Cobblestone
+ExtrabiomesXL:terrain_blocks1:2, Red Rock Brick
+ExtrabiomesXL:saplings_1:0, Umber Autumn Sapling
+ExtrabiomesXL:saplings_1:1, Goldenrod Autumn Sapling
+ExtrabiomesXL:saplings_1:2, Vermillion Autumn Sapling
+ExtrabiomesXL:saplings_1:3, Citrine Autumn Sapling
+ExtrabiomesXL:saplings_1:4, Fir Sapling
+ExtrabiomesXL:saplings_1:5, Redwood Sapling
+ExtrabiomesXL:saplings_1:6, Acacia Sapling
+ExtrabiomesXL:saplings_1:7, Cypress Sapling
+ExtrabiomesXL:saplings_2:0, Bald Cypress Sapling
+ExtrabiomesXL:saplings_2:1, Japanese Maple Sapling
+ExtrabiomesXL:saplings_2:2, Japanese Maple Shrub Sapling
+ExtrabiomesXL:saplings_2:3, Rainbow Eucalyptus Sapling
+ExtrabiomesXL:saplings_2:4, Sakura Sapling
+ExtrabiomesXL:log1:0, Fir Log
+ExtrabiomesXL:log1:1, Acacia Log
+ExtrabiomesXL:log1:2, Cypress Log
+ExtrabiomesXL:log1:3, Japanese Maple Log
+ExtrabiomesXL:log2:0, Rainbow Eucalyptus Log
+ExtrabiomesXL:log2:1, Autumn Log
+ExtrabiomesXL:log2:2, Bald Cypress Log
+ExtrabiomesXL:log2:3, Redwood Log
+ExtrabiomesXL:mini_log_1, tile.extrabiomes.log.name
+ExtrabiomesXL:cornerlog_baldcypress, Bald Cypress Quarter Log
+ExtrabiomesXL:cornerlog_rainboweucalyptus, Rainbow Eucalyptus Quarter Log
+ExtrabiomesXL:cornerlog_oak, Oak Quarter Log
+ExtrabiomesXL:cornerlog_fir, Fir Quarter Log
+ExtrabiomesXL:cornerlog_redwood, Redwood Quarter Log
+ExtrabiomesXL:log_elbow_baldcypress, Bald Cypress Elbow Log
+ExtrabiomesXL:log_elbow_rainbow_eucalyptus, Rainbow Eucalyptus Elbow Log
+ExtrabiomesXL:vines, Gloriosa
+ExtrabiomesXL:waterplant1:0, Eelgrass
+ExtrabiomesXL:quicksand, Quicksand
+ExtrabiomesXL:planks:0, Redwood Planks
+ExtrabiomesXL:planks:1, Fir Wood Planks
+ExtrabiomesXL:planks:2, Acacia Wood Planks
+ExtrabiomesXL:planks:3, Cypress Wood Planks
+ExtrabiomesXL:planks:4, Japanese Maple Wood Planks
+ExtrabiomesXL:planks:5, Rainbow Eucalyptus Wood Planks
+ExtrabiomesXL:planks:6, Autumn Wood Planks
+ExtrabiomesXL:planks:7, Bald Cypress Wood Planks
+ExtrabiomesXL:planks:8, Sakura Wood Planks
+ExtrabiomesXL:woodslab2:0, Sakura Slab
+ExtrabiomesXL:woodslab:0, Redwood Slab
+ExtrabiomesXL:woodslab:1, Fir Wood Slab
+ExtrabiomesXL:woodslab:2, Acacia Wood Slab
+ExtrabiomesXL:woodslab:3, Cypress Slab
+ExtrabiomesXL:woodslab:4, Japanese Maple Slab
+ExtrabiomesXL:woodslab:5, Rainbow Eucalyptus Slab
+ExtrabiomesXL:woodslab:6, Autumn Slab
+ExtrabiomesXL:woodslab:7, Bald Cypress Slab
+ExtrabiomesXL:stairs.redwood, Redwood Stairs
+ExtrabiomesXL:stairs.fir, Fir Wood Stairs
+ExtrabiomesXL:stairs.acacia, Acacia Wood Stairs
+ExtrabiomesXL:stairs.rainboweucalyptus, Rainbow Eucalyptus Stairs
+ExtrabiomesXL:stairs.cypress, Cypress Stairs
+ExtrabiomesXL:stairs.baldcypress, Bald Cypress Stairs
+ExtrabiomesXL:stairs.japanesemaple, Japanese Maple Stairs
+ExtrabiomesXL:stairs.autumn, Autumn Stairs
+ExtrabiomesXL:stairs.sakurablossom, Sakura Stairs
+ExtrabiomesXL:slabRedRock:0, Red Cobblestone Slab
+ExtrabiomesXL:slabRedRock:1, Red Rock Slab
+ExtrabiomesXL:slabRedRock:2, Red Rock Brick Slab
+ExtrabiomesXL:stairsRedCobble, Red Cobblestone Stairs
+ExtrabiomesXL:redrockbrick, Red Rock Brick Stairs
+ExtrabiomesXL:wall:0, Red Cobblestone Wall
+ExtrabiomesXL:fence:2, Baldcypress Fence
+ExtrabiomesXL:fence:6, Rainbow Eucalyptus Fence
+ExtrabiomesXL:fence:7, Redwood Fence
+ExtrabiomesXL:fence:3, Cypress Fence
+ExtrabiomesXL:fence:1, Autumn Fence
+ExtrabiomesXL:fence:4, Fir Fence
+ExtrabiomesXL:fence:5, Japanese Maple Fence
+ExtrabiomesXL:fence:0, Acacia Fence
+ExtrabiomesXL:fence:8, Sakura Fence
+ExtrabiomesXL:door_acacia, Acacia Door
+ExtrabiomesXL:door_autumn, Autumn Door
+ExtrabiomesXL:door_baldcypress, Baldcypress Door
+ExtrabiomesXL:door_cypress, Cypress Door
+ExtrabiomesXL:door_fir, Fir Door
+ExtrabiomesXL:door_japanesemaple, Japanese Maple Door
+ExtrabiomesXL:door_rainboweucalyptus, Rainbow Eucalyptus Door
+ExtrabiomesXL:door_redwood, Redwood Door
+ExtrabiomesXL:door_sakura, Sakura Door
+ExtrabiomesXL:fencegate_acacia, Acacia Fence Gate
+ExtrabiomesXL:fencegate_autumn, Autumn Fence Gate
+ExtrabiomesXL:fencegate_baldcypress, Baldcypress Fence Gate
+ExtrabiomesXL:fencegate_cypress, Cypress Fence Gate
+ExtrabiomesXL:fencegate_fir, Fir Fence Gate
+ExtrabiomesXL:fencegate_japanesemaple, Japanese Maple Fence Gate
+ExtrabiomesXL:fencegate_rainboweucalyptus, Rainbow Eucalyptus Fence Gate
+ExtrabiomesXL:fencegate_redwood, Redwood Fence Gate
+ExtrabiomesXL:fencegate_sakura, Sakura Fence Gate
+extracells:certustank, extracells.block.certustank.name
+extracells:walrus, Walrus
+extracells:fluidcrafter, ME Fluid Assembler
+extracells:ecbaseblock:0, ME Fluid Interface
+extracells:ecbaseblock:1, ME Fluid Auto Filler
+extracells:hardmedrive, Blast resistant ME Drive [WIP]
+extracells:vibrantchamberfluid, Fluid Vibration Chamber
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireAir, Aer Imbued Fire
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
+ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
+ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:repairer, Thaumic Restorer
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:funnel, Essentia Funnel
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ForbiddenMagic:ArcaneCake, Thaumic Cake
+ForbiddenMagic:WrathCage, Wrath Cage
+ForbiddenMagic:InkFlower, Umbral Rose
+ForbiddenMagic:StarBlock, Nether Star Block
+ForbiddenMagic:UmbralBush, Umbral Rose Bush
+ForbiddenMagic:TaintLog, Tainted Log
+ForbiddenMagic:TaintPlank, Tainted Planks
+ForbiddenMagic:TaintLeaves, Tainted Leaves
+ForbiddenMagic:TaintSapling, Tainted Sapling
+ForbiddenMagic:TaintBlock:0, Tainted Stone
+ForbiddenMagic:TaintBlock:1, Tainted Stone Bricks
 foundry:refractoryCasing, Refractory Casing
 foundry:foundryMachine:0, Induction Crucible Furnace
 foundry:foundryMachine:1, Metal Caster
@@ -3969,6 +3990,16 @@ foundry:liquidElectricalSteel, Liquid Electrical Steel
 foundry:liquidPhasedIron, Liquid Pulsating Iron
 foundry:liquidSoularium, Liquid Soularium
 foundry:liquidElectrumFlux, tile.liquidElectrumFlux.name
+gravestonemod:graveStone:1, Gravestone
+gravestonemod:graveStone:2, Gravestone
+gravestonemod:graveStone:3, Gravestone
+gravestonemod:graveStone:4, Gravestone
+gravestonemod:graveStone:5, Gravestone
+gravestonemod:graveStone:6, Gravestone
+gravestonemod:graveStone:7, Gravestone
+gravestonemod:graveStone:8, Gravestone
+gravestonemod:graveStone:9, Gravestone
+gravestonemod:graveStone:10, Gravestone
 HardcoreQuesting:item_barrel, Quest Delivery System
 HardcoreQuesting:quest_tracker, Quest Tracking System
 HardcoreQuesting:quest_portal, tile.hqm:quest_portal.name
@@ -4283,6 +4314,7 @@ StorageDrawers:fullCustom2, Framed Drawers 1x2
 StorageDrawers:fullCustom4, Framed Drawers 2x2
 StorageDrawers:halfCustom2, Framed Drawers 1x2
 StorageDrawers:halfCustom4, Framed Drawers 2x2
+StorageDrawers:trimCustom, Framed Trim
 subsistence:table:0, Wooden Table
 subsistence:table:1, Smashing Table
 subsistence:table:2, Smashing Table
@@ -5352,6 +5384,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Melon
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - End Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Redstone Lamp
+appliedenergistics2:item.ItemFacade:0, Cable Facade
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Emerald Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Emerald
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Redstone
@@ -6605,54 +6638,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Woolen Clay
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bone Rock
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Rock
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Distortion Flame
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Charged Draconium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Energy Pylon
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Awakened Draconium Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Infused Obsidian
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Admin Dislocator
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Sand
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Rock
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Cobblestone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Rock Brick
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Fir Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cypress Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Japanese Maple Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Autumn Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Redwood Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Quarter Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Quarter Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Oak Quarter Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Fir Quarter Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Redwood Quarter Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Elbow Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Elbow Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Quicksand
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Redwood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Fir Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cypress Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Japanese Maple Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Autumn Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Sakura Wood Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Stone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Bauxite Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lead Ore
@@ -6764,6 +6749,52 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Brownstone Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Brownstone Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fancy Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Distortion Flame
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Ore
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Charged Draconium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Energy Pylon
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Awakened Draconium Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Draconium Infused Obsidian
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Admin Dislocator
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Sand
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Rock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Cobblestone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Rock Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Fir Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cypress Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Japanese Maple Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Autumn Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Redwood Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Quarter Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Quarter Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Oak Quarter Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Fir Quarter Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Redwood Quarter Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Elbow Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Elbow Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Quicksand
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Redwood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Fir Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Acacia Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cypress Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Japanese Maple Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Rainbow Eucalyptus Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Autumn Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Bald Cypress Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Sakura Wood Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Stone
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tin
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Bronze
@@ -8534,224 +8565,6 @@ CarpentersBlocks:itemCarpentersChisel, Carpenter's Chisel
 CarpentersBlocks:itemCarpentersTile, Carpenter's Tile
 CarpentersBlocks:itemCarpentersDoor, Carpenter's Door
 CarpentersBlocks:itemCarpentersBed, Carpenter's Bed
-DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
-DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
-DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
-DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
-DraconicEvolution:draconicAxe:0, Draconic Axe
-DraconicEvolution:draconicAxe:0, Draconic Axe
-DraconicEvolution:draconicShovel:0, Draconic Shovel
-DraconicEvolution:draconicShovel:0, Draconic Shovel
-DraconicEvolution:draconicHoe, Draconic Hoe
-DraconicEvolution:draconicSword, Draconic Sword
-DraconicEvolution:draconicBow:0, Draconic Bow
-DraconicEvolution:draconicBow:0, Draconic Bow
-DraconicEvolution:draconicHelm, Draconic Helm
-DraconicEvolution:draconicChest, Draconic Chestplate
-DraconicEvolution:draconicLeggs, Draconic Leggings
-DraconicEvolution:draconicBoots, Draconic Boots
-DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
-DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
-DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
-DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
-DraconicEvolution:wyvernSword, Sword of the Wyvern
-DraconicEvolution:wyvernBow:0, Bow of the Wyvern
-DraconicEvolution:wyvernBow:0, Bow of the Wyvern
-DraconicEvolution:wyvernHelm, Wyvern Helm
-DraconicEvolution:wyvernChest, Wyvern Chestplate
-DraconicEvolution:wyvernLeggs, Wyvern Leggings
-DraconicEvolution:wyvernBoots, Wyvern Boots
-DraconicEvolution:draconicCore, Draconic Core
-DraconicEvolution:wyvernCore, Wyvern Core
-DraconicEvolution:awakenedCore, Awakened Core
-DraconicEvolution:chaoticCore, Chaotic Core
-DraconicEvolution:draconiumDust, Draconium Dust
-DraconicEvolution:draconiumIngot, Draconium Ingot
-DraconicEvolution:draconiumBlend, Draconium Blend (Depreciated)
-DraconicEvolution:dragonHeart, Dragon Heart
-DraconicEvolution:teleporterMKI, Charm of Dislocation
-DraconicEvolution:teleporterMKII, Enhanced Charm of Dislocation
-DraconicEvolution:tclogo, TCLogo
-DraconicEvolution:sunFocus, Solar Focus
-DraconicEvolution:mobSoul, Mob Soul
-DraconicEvolution:enderArrow, Ender Arrow
-DraconicEvolution:safetyMatch:0, Box of Safety Matches
-DraconicEvolution:safetyMatch:1000, Safety Match
-DraconicEvolution:key:0, Key
-DraconicEvolution:key:1, Key
-DraconicEvolution:creativeStructureSpawner:0, Spawn Comet
-DraconicEvolution:creativeStructureSpawner:1, Spawn Ender Island
-DraconicEvolution:adminSpawnEgg, item.draconicevolution:adminSpawnEgg.name
-DraconicEvolution:infoTablet, Draconic Evolution Information Tablet
-DraconicEvolution:draconicIngot, Awakened Draconium Ingot
-DraconicEvolution:draconiumEnergyCore:0, Wyvern Energy Core
-DraconicEvolution:draconiumEnergyCore:1, Draconic Energy Core
-DraconicEvolution:draconiumFluxCapacitor, item.draconicevolution:draconiumFluxCapacitor.name
-DraconicEvolution:wrench, Crystal Binder
-DraconicEvolution:chaosShard, Chaos Shard
-DraconicEvolution:reactorCraftingPart:0, Reactor Stabilizer Frame
-DraconicEvolution:reactorCraftingPart:1, Reactor Stabilizer Inner Rotor
-DraconicEvolution:reactorCraftingPart:2, Reactor Stabilizer Outer Rotor
-DraconicEvolution:reactorCraftingPart:3, Reactor Stabilizer Rotor Assembly
-DraconicEvolution:reactorCraftingPart:4, Reactor Stabilizer Focus Ring
-DraconicEvolution:nugget:0, Draconium Nugget
-DraconicEvolution:nugget:1, Awakened Draconium Nugget
-DraconicEvolution:chaosFragment:0, Tiny Chaos Fragment
-DraconicEvolution:chaosFragment:1, Small Chaos Fragment
-DraconicEvolution:chaosFragment:2, Large Chaos Fragment
-DraconicEvolution:magnet:0, Item Dislocator
-DraconicEvolution:magnet:1, Awakened Item Dislocator
-DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
-Enchiridion:items:1, Book Binder
-Enchiridion2:book:0, Create New Book
-Enchiridion2:book:0, Introduction Book
-ExtrabiomesXL:extrabiomes.logturner, Log Turner
-ExtrabiomesXL:extrabiomes.dye:0, Black Dye
-ExtrabiomesXL:extrabiomes.dye:1, Blue Dye
-ExtrabiomesXL:extrabiomes.dye:2, Brown Dye
-ExtrabiomesXL:extrabiomes.dye:3, White Dye
-ExtrabiomesXL:extrabiomes.food:0, Chocolate
-ExtrabiomesXL:extrabiomes.food:1, Chocolate Covered Strawberry
-ExtrabiomesXL:extrabiomes.scarecrow, Scarecrow
-ExtrabiomesXL:extrabiomes.paste, Cactus Paste
-extracells:part.base:0, ME Fluid Export Bus
-extracells:part.base:1, ME Fluid Import Bus
-extracells:part.base:2, ME Fluid Storage Bus
-extracells:part.base:3, ME Fluid Terminal
-extracells:part.base:4, ME Fluid Level Emitter
-extracells:part.base:5, ME Fluid Annihilation Plane
-extracells:part.base:6, ME Fluid Formation Plane
-extracells:part.base:7, ME Drive Fixture
-extracells:part.base:8, ME Energy Cell Fixture
-extracells:part.base:9, ME Fluid Interface
-extracells:part.base:10, ME Fluid Storage Monitor
-extracells:part.base:11, ME Fluid Conversion Monitor
-extracells:part.base:12, ME Ore Dictionary Export Bus
-extracells:part.base:13, ME Gas Import Bus
-extracells:part.base:14, ME Gas Export Bus
-extracells:part.base:15, ME Gas Terminal
-extracells:part.base:16, ME Gas Storage Bus
-extracells:part.base:17, ME Gas Level Emitter
-extracells:part.base:18, ME Gas Storage Monitor
-extracells:part.base:19, ME Gas Conversion Monitor
-extracells:storage.fluid:0, ME 1k Fluid Storage
-extracells:storage.fluid:1, ME 4k Fluid Storage
-extracells:storage.fluid:2, ME 16k Fluid Storage
-extracells:storage.fluid:3, ME 64k Fluid Storage
-extracells:storage.fluid:4, ME 256k Fluid Storage
-extracells:storage.fluid:5, ME 1024k Fluid Storage
-extracells:storage.fluid:6, ME 4096k Fluid Storage
-extracells:storage.physical:0, ME 256k Storage
-extracells:storage.physical:1, ME 1024k Storage
-extracells:storage.physical:2, ME 4096k Storage
-extracells:storage.physical:3, ME 16384k Storage
-extracells:storage.physical:4, ME Block Container - Empty
-extracells:storage.physical:4, ME Block Container - Empty
-extracells:storage.gas:0, ME 1k Gas Storage
-extracells:storage.gas:1, ME 4k Gas Storage
-extracells:storage.gas:2, ME 16k Gas Storage
-extracells:storage.gas:3, ME 64k Gas Storage
-extracells:storage.gas:4, ME 256k Gas Storage
-extracells:storage.gas:5, ME 1024k Gas Storage
-extracells:storage.gas:6, ME 4096k Gas Storage
-extracells:pattern.fluid, item.extracells.pattern.fluid.name
-extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
-extracells:storage.component:0, 256k ME Storage Component
-extracells:storage.component:1, 1024k ME Storage Component
-extracells:storage.component:2, 4096k ME Storage Component
-extracells:storage.component:3, 16384k ME Storage Component
-extracells:storage.component:4, 1k ME Fluid Storage Component
-extracells:storage.component:5, 4k ME Fluid Storage Component
-extracells:storage.component:6, 16k ME Fluid Storage Component
-extracells:storage.component:7, 64k ME Fluid Storage Component
-extracells:storage.component:8, 256k ME Fluid Storage Component
-extracells:storage.component:9, 1024k ME Fluid Storage Component
-extracells:storage.component:10, 4096k ME Fluid Storage Component
-extracells:storage.component:11, 1k ME Gas Storage Component
-extracells:storage.component:12, 4k ME Gas Storage Component
-extracells:storage.component:13, 16k ME Gas Storage Component
-extracells:storage.component:14, 64k ME Gas Storage Component
-extracells:storage.component:15, 256k ME Gas Storage Component
-extracells:storage.component:16, 1024k ME Gas Storage Component
-extracells:storage.component:17, 4096k ME Gas Storage Component
-extracells:storage.casing:0, Advanced Storage Housing
-extracells:storage.casing:1, Fluid Storage Housing
-extracells:storage.casing:2, Gas Storage Housing
-extracells:fluid.item, item.extracells.fluid.item.name
-extracells:storage.fluid.portable, item.extracells.storage.fluid.portable.name
-extracells:storage.gas.portable, item.extracells.storage.gas.portable.name
-extracells:pattern.crafting, item.extracells.pattern.crafting.name
-extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
-extracells:terminal.gas.wireless, item.extracells.terminal.gas.wireless.name
-extracells:oc.upgrade, ME Upgrade
-ForbiddenMagic:NetherShard:0, Wrath Shard
-ForbiddenMagic:NetherShard:1, Envy Shard
-ForbiddenMagic:NetherShard:2, Taint Shard
-ForbiddenMagic:NetherShard:3, Pride Shard
-ForbiddenMagic:NetherShard:4, Lust Shard
-ForbiddenMagic:NetherShard:5, Sloth Shard
-ForbiddenMagic:NetherShard:6, Greed Shard
-ForbiddenMagic:GluttonyShard, Gluttony Shard
-ForbiddenMagic:TaintShovel, Shovel of the Purifier
-ForbiddenMagic:TaintPickaxe, Pickaxe of Distortion
-ForbiddenMagic:ArcaneCakeItem, Thaumic Cake
-ForbiddenMagic:SkullAxe, Axe of the Skulltaker
-ForbiddenMagic:MorphPickaxe, Chameleon Pickaxe
-ForbiddenMagic:MorphSword, Chameleon Sword
-ForbiddenMagic:MorphShovel, Chameleon Shovel
-ForbiddenMagic:MorphAxe, Chameleon Axe
-ForbiddenMagic:MobCrystal, %s Imprinted Crystal
-ForbiddenMagic:DiabolistFork, Diabolist Fork
-ForbiddenMagic:WandCores:0, Tainted Rod
-ForbiddenMagic:WandCores:1, Infernal Rod
-ForbiddenMagic:WandCores:2, Eldritch Rod
-ForbiddenMagic:WandCores:3, Blood Rod
-ForbiddenMagic:WandCores:4, Witchwood Rod
-ForbiddenMagic:WandCores:5, Profane Rod
-ForbiddenMagic:WandCores:6, Inert Blood Rod
-ForbiddenMagic:WandCores:7, Livingwood Rod
-ForbiddenMagic:WandCores:8, Dormant Livingwood Rod
-ForbiddenMagic:WandCores:9, Blood Staff Core
-ForbiddenMagic:WandCores:10, Witchwood Staff Core
-ForbiddenMagic:WandCores:11, Dreamwood Rod
-ForbiddenMagic:WandCores:12, Silent Dreamwood Rod
-ForbiddenMagic:WandCores:13, Dreamwood Staff Core
-ForbiddenMagic:WandCores:72, Thaumium Bossed Tainted Wand
-ForbiddenMagic:WandCores:72, Thaumium Bossed Infernal Wand
-ForbiddenMagic:WandCores:2000, Orichalcum Studded Cosmic Neutronium Wand
-ForbiddenMagic:WandCores:2000, Orichalcum Studded Cosmic Neutronium Staff
-ForbiddenMagic:WandCores:36, Iron Capped Profane Wand
-ForbiddenMagic:WandCores:84, Alchemically Crowned Blood Wand
-ForbiddenMagic:WandCores:168, Alchemically Crowned Blood Staff
-ForbiddenMagic:WandCores:84, Manasteel Entwined Livingwood Wand
-ForbiddenMagic:WandCores:84, Elementium Kissed Dreamwood Wand
-ForbiddenMagic:WandCores:144, Elementium Kissed Dreamwood Staff
-ForbiddenMagic:WandCores:1, Terrasteel Nerfed Wooden Wand
-ForbiddenMagic:WandCores:84, Void Aspected §kAlchemical§r Wand
-ForbiddenMagic:WandCaps:0, Alchemical Cap
-ForbiddenMagic:WandCaps:1, Vinteum Cap
-ForbiddenMagic:WandCaps:2, Terrasteel Cap
-ForbiddenMagic:WandCaps:3, Manasteel Cap
-ForbiddenMagic:WandCaps:4, Inert Manasteel Cap
-ForbiddenMagic:WandCaps:5, Elementium Cap
-ForbiddenMagic:WandCaps:6, Inert Elementium Cap
-ForbiddenMagic:FMResource:0, Emerald Fragment
-ForbiddenMagic:FMResource:1, Shadow Ink
-ForbiddenMagic:FMResource:2, Manasteel Nugget
-ForbiddenMagic:FMResource:3, Tainted Blood Shard
-ForbiddenMagic:FMResource:4, Elementium Nugget
-ForbiddenMagic:Bloodwell, Bloody Scrivener's Tools
-ForbiddenMagic:EldritchOrb, Eldritch Blood Orb
-ForbiddenMagic:Boundwell, Bound Scribing Tools
-ForbiddenMagic:BloodRapier, Rapier of the Strix
-ForbiddenMagic:Crystalwell, Crystal Scribing Tools
-ForbiddenMagic:Primewell, Primal Scribing Tools
-ForbiddenMagic:RidingCrop, Riding Crop
-ForbiddenMagic:SubCollar:0, Collar of Pain
-ForbiddenMagic:RingNutrition, Ring of Nutrition
-ForbiddenMagic:TaintFruit, Tainted Fruit
-ForbiddenMagic:TaintCoal, Hexcoal
-ForbiddenMagic:BlinkFocus, Wand Focus: Blink
 ImmersiveEngineering:metal:0, Copper Ingot
 ImmersiveEngineering:metal:1, Aluminium Ingot
 ImmersiveEngineering:metal:2, Lead Ingot
@@ -9710,6 +9523,224 @@ TConstruct:Cast:3, Bow Limb Cast
 TConstruct:GlassArrows, item.tconstruct.glassArrows.name
 TConstruct:Boneana, Broadsword
 TConstruct:gearCast, Gear Cast
+DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
+DraconicEvolution:draconicDistructionStaff:0, Draconic Staff of Power
+DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
+DraconicEvolution:draconicPickaxe:0, Draconic Pickaxe
+DraconicEvolution:draconicAxe:0, Draconic Axe
+DraconicEvolution:draconicAxe:0, Draconic Axe
+DraconicEvolution:draconicShovel:0, Draconic Shovel
+DraconicEvolution:draconicShovel:0, Draconic Shovel
+DraconicEvolution:draconicHoe, Draconic Hoe
+DraconicEvolution:draconicSword, Draconic Sword
+DraconicEvolution:draconicBow:0, Draconic Bow
+DraconicEvolution:draconicBow:0, Draconic Bow
+DraconicEvolution:draconicHelm, Draconic Helm
+DraconicEvolution:draconicChest, Draconic Chestplate
+DraconicEvolution:draconicLeggs, Draconic Leggings
+DraconicEvolution:draconicBoots, Draconic Boots
+DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
+DraconicEvolution:wyvernPickaxe:0, Pickaxe of the Wyvern
+DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
+DraconicEvolution:wyvernShovel:0, Shovel of the Wyvern
+DraconicEvolution:wyvernSword, Sword of the Wyvern
+DraconicEvolution:wyvernBow:0, Bow of the Wyvern
+DraconicEvolution:wyvernBow:0, Bow of the Wyvern
+DraconicEvolution:wyvernHelm, Wyvern Helm
+DraconicEvolution:wyvernChest, Wyvern Chestplate
+DraconicEvolution:wyvernLeggs, Wyvern Leggings
+DraconicEvolution:wyvernBoots, Wyvern Boots
+DraconicEvolution:draconicCore, Draconic Core
+DraconicEvolution:wyvernCore, Wyvern Core
+DraconicEvolution:awakenedCore, Awakened Core
+DraconicEvolution:chaoticCore, Chaotic Core
+DraconicEvolution:draconiumDust, Draconium Dust
+DraconicEvolution:draconiumIngot, Draconium Ingot
+DraconicEvolution:draconiumBlend, Draconium Blend (Depreciated)
+DraconicEvolution:dragonHeart, Dragon Heart
+DraconicEvolution:teleporterMKI, Charm of Dislocation
+DraconicEvolution:teleporterMKII, Enhanced Charm of Dislocation
+DraconicEvolution:tclogo, TCLogo
+DraconicEvolution:sunFocus, Solar Focus
+DraconicEvolution:mobSoul, Mob Soul
+DraconicEvolution:enderArrow, Ender Arrow
+DraconicEvolution:safetyMatch:0, Box of Safety Matches
+DraconicEvolution:safetyMatch:1000, Safety Match
+DraconicEvolution:key:0, Key
+DraconicEvolution:key:1, Key
+DraconicEvolution:creativeStructureSpawner:0, Spawn Comet
+DraconicEvolution:creativeStructureSpawner:1, Spawn Ender Island
+DraconicEvolution:adminSpawnEgg, item.draconicevolution:adminSpawnEgg.name
+DraconicEvolution:infoTablet, Draconic Evolution Information Tablet
+DraconicEvolution:draconicIngot, Awakened Draconium Ingot
+DraconicEvolution:draconiumEnergyCore:0, Wyvern Energy Core
+DraconicEvolution:draconiumEnergyCore:1, Draconic Energy Core
+DraconicEvolution:draconiumFluxCapacitor, item.draconicevolution:draconiumFluxCapacitor.name
+DraconicEvolution:wrench, Crystal Binder
+DraconicEvolution:chaosShard, Chaos Shard
+DraconicEvolution:reactorCraftingPart:0, Reactor Stabilizer Frame
+DraconicEvolution:reactorCraftingPart:1, Reactor Stabilizer Inner Rotor
+DraconicEvolution:reactorCraftingPart:2, Reactor Stabilizer Outer Rotor
+DraconicEvolution:reactorCraftingPart:3, Reactor Stabilizer Rotor Assembly
+DraconicEvolution:reactorCraftingPart:4, Reactor Stabilizer Focus Ring
+DraconicEvolution:nugget:0, Draconium Nugget
+DraconicEvolution:nugget:1, Awakened Draconium Nugget
+DraconicEvolution:chaosFragment:0, Tiny Chaos Fragment
+DraconicEvolution:chaosFragment:1, Small Chaos Fragment
+DraconicEvolution:chaosFragment:2, Large Chaos Fragment
+DraconicEvolution:magnet:0, Item Dislocator
+DraconicEvolution:magnet:1, Awakened Item Dislocator
+DraconicEvolution:dezilsMarshmallow, Dezil's Marshmallow
+Enchiridion:items:1, Book Binder
+Enchiridion2:book:0, Create New Book
+Enchiridion2:book:0, Introduction Book
+ExtrabiomesXL:extrabiomes.logturner, Log Turner
+ExtrabiomesXL:extrabiomes.dye:0, Black Dye
+ExtrabiomesXL:extrabiomes.dye:1, Blue Dye
+ExtrabiomesXL:extrabiomes.dye:2, Brown Dye
+ExtrabiomesXL:extrabiomes.dye:3, White Dye
+ExtrabiomesXL:extrabiomes.food:0, Chocolate
+ExtrabiomesXL:extrabiomes.food:1, Chocolate Covered Strawberry
+ExtrabiomesXL:extrabiomes.scarecrow, Scarecrow
+ExtrabiomesXL:extrabiomes.paste, Cactus Paste
+extracells:part.base:0, ME Fluid Export Bus
+extracells:part.base:1, ME Fluid Import Bus
+extracells:part.base:2, ME Fluid Storage Bus
+extracells:part.base:3, ME Fluid Terminal
+extracells:part.base:4, ME Fluid Level Emitter
+extracells:part.base:5, ME Fluid Annihilation Plane
+extracells:part.base:6, ME Fluid Formation Plane
+extracells:part.base:7, ME Drive Fixture
+extracells:part.base:8, ME Energy Cell Fixture
+extracells:part.base:9, ME Fluid Interface
+extracells:part.base:10, ME Fluid Storage Monitor
+extracells:part.base:11, ME Fluid Conversion Monitor
+extracells:part.base:12, ME Ore Dictionary Export Bus
+extracells:part.base:13, ME Gas Import Bus
+extracells:part.base:14, ME Gas Export Bus
+extracells:part.base:15, ME Gas Terminal
+extracells:part.base:16, ME Gas Storage Bus
+extracells:part.base:17, ME Gas Level Emitter
+extracells:part.base:18, ME Gas Storage Monitor
+extracells:part.base:19, ME Gas Conversion Monitor
+extracells:storage.fluid:0, ME 1k Fluid Storage
+extracells:storage.fluid:1, ME 4k Fluid Storage
+extracells:storage.fluid:2, ME 16k Fluid Storage
+extracells:storage.fluid:3, ME 64k Fluid Storage
+extracells:storage.fluid:4, ME 256k Fluid Storage
+extracells:storage.fluid:5, ME 1024k Fluid Storage
+extracells:storage.fluid:6, ME 4096k Fluid Storage
+extracells:storage.physical:0, ME 256k Storage
+extracells:storage.physical:1, ME 1024k Storage
+extracells:storage.physical:2, ME 4096k Storage
+extracells:storage.physical:3, ME 16384k Storage
+extracells:storage.physical:4, ME Block Container - Empty
+extracells:storage.physical:4, ME Block Container - Empty
+extracells:storage.gas:0, ME 1k Gas Storage
+extracells:storage.gas:1, ME 4k Gas Storage
+extracells:storage.gas:2, ME 16k Gas Storage
+extracells:storage.gas:3, ME 64k Gas Storage
+extracells:storage.gas:4, ME 256k Gas Storage
+extracells:storage.gas:5, ME 1024k Gas Storage
+extracells:storage.gas:6, ME 4096k Gas Storage
+extracells:pattern.fluid, item.extracells.pattern.fluid.name
+extracells:terminal.fluid.wireless, item.extracells.terminal.fluid.wireless.name
+extracells:storage.component:0, 256k ME Storage Component
+extracells:storage.component:1, 1024k ME Storage Component
+extracells:storage.component:2, 4096k ME Storage Component
+extracells:storage.component:3, 16384k ME Storage Component
+extracells:storage.component:4, 1k ME Fluid Storage Component
+extracells:storage.component:5, 4k ME Fluid Storage Component
+extracells:storage.component:6, 16k ME Fluid Storage Component
+extracells:storage.component:7, 64k ME Fluid Storage Component
+extracells:storage.component:8, 256k ME Fluid Storage Component
+extracells:storage.component:9, 1024k ME Fluid Storage Component
+extracells:storage.component:10, 4096k ME Fluid Storage Component
+extracells:storage.component:11, 1k ME Gas Storage Component
+extracells:storage.component:12, 4k ME Gas Storage Component
+extracells:storage.component:13, 16k ME Gas Storage Component
+extracells:storage.component:14, 64k ME Gas Storage Component
+extracells:storage.component:15, 256k ME Gas Storage Component
+extracells:storage.component:16, 1024k ME Gas Storage Component
+extracells:storage.component:17, 4096k ME Gas Storage Component
+extracells:storage.casing:0, Advanced Storage Housing
+extracells:storage.casing:1, Fluid Storage Housing
+extracells:storage.casing:2, Gas Storage Housing
+extracells:fluid.item, item.extracells.fluid.item.name
+extracells:storage.fluid.portable, item.extracells.storage.fluid.portable.name
+extracells:storage.gas.portable, item.extracells.storage.gas.portable.name
+extracells:pattern.crafting, item.extracells.pattern.crafting.name
+extracells:terminal.universal.wireless, item.extracells.terminal.universal.wireless.name
+extracells:terminal.gas.wireless, item.extracells.terminal.gas.wireless.name
+extracells:oc.upgrade, ME Upgrade
+ForbiddenMagic:NetherShard:0, Wrath Shard
+ForbiddenMagic:NetherShard:1, Envy Shard
+ForbiddenMagic:NetherShard:2, Taint Shard
+ForbiddenMagic:NetherShard:3, Pride Shard
+ForbiddenMagic:NetherShard:4, Lust Shard
+ForbiddenMagic:NetherShard:5, Sloth Shard
+ForbiddenMagic:NetherShard:6, Greed Shard
+ForbiddenMagic:GluttonyShard, Gluttony Shard
+ForbiddenMagic:TaintShovel, Shovel of the Purifier
+ForbiddenMagic:TaintPickaxe, Pickaxe of Distortion
+ForbiddenMagic:ArcaneCakeItem, Thaumic Cake
+ForbiddenMagic:SkullAxe, Axe of the Skulltaker
+ForbiddenMagic:MorphPickaxe, Chameleon Pickaxe
+ForbiddenMagic:MorphSword, Chameleon Sword
+ForbiddenMagic:MorphShovel, Chameleon Shovel
+ForbiddenMagic:MorphAxe, Chameleon Axe
+ForbiddenMagic:MobCrystal, %s Imprinted Crystal
+ForbiddenMagic:DiabolistFork, Diabolist Fork
+ForbiddenMagic:WandCores:0, Tainted Rod
+ForbiddenMagic:WandCores:1, Infernal Rod
+ForbiddenMagic:WandCores:2, Eldritch Rod
+ForbiddenMagic:WandCores:3, Blood Rod
+ForbiddenMagic:WandCores:4, Witchwood Rod
+ForbiddenMagic:WandCores:5, Profane Rod
+ForbiddenMagic:WandCores:6, Inert Blood Rod
+ForbiddenMagic:WandCores:7, Livingwood Rod
+ForbiddenMagic:WandCores:8, Dormant Livingwood Rod
+ForbiddenMagic:WandCores:9, Blood Staff Core
+ForbiddenMagic:WandCores:10, Witchwood Staff Core
+ForbiddenMagic:WandCores:11, Dreamwood Rod
+ForbiddenMagic:WandCores:12, Silent Dreamwood Rod
+ForbiddenMagic:WandCores:13, Dreamwood Staff Core
+ForbiddenMagic:WandCores:72, Thaumium Bossed Tainted Wand
+ForbiddenMagic:WandCores:72, Thaumium Bossed Infernal Wand
+ForbiddenMagic:WandCores:2000, Orichalcum Studded Cosmic Neutronium Wand
+ForbiddenMagic:WandCores:2000, Orichalcum Studded Cosmic Neutronium Staff
+ForbiddenMagic:WandCores:36, Iron Capped Profane Wand
+ForbiddenMagic:WandCores:84, Alchemically Crowned Blood Wand
+ForbiddenMagic:WandCores:168, Alchemically Crowned Blood Staff
+ForbiddenMagic:WandCores:84, Manasteel Entwined Livingwood Wand
+ForbiddenMagic:WandCores:84, Elementium Kissed Dreamwood Wand
+ForbiddenMagic:WandCores:144, Elementium Kissed Dreamwood Staff
+ForbiddenMagic:WandCores:1, Terrasteel Nerfed Wooden Wand
+ForbiddenMagic:WandCores:84, Void Aspected §kAlchemical§r Wand
+ForbiddenMagic:WandCaps:0, Alchemical Cap
+ForbiddenMagic:WandCaps:1, Vinteum Cap
+ForbiddenMagic:WandCaps:2, Terrasteel Cap
+ForbiddenMagic:WandCaps:3, Manasteel Cap
+ForbiddenMagic:WandCaps:4, Inert Manasteel Cap
+ForbiddenMagic:WandCaps:5, Elementium Cap
+ForbiddenMagic:WandCaps:6, Inert Elementium Cap
+ForbiddenMagic:FMResource:0, Emerald Fragment
+ForbiddenMagic:FMResource:1, Shadow Ink
+ForbiddenMagic:FMResource:2, Manasteel Nugget
+ForbiddenMagic:FMResource:3, Tainted Blood Shard
+ForbiddenMagic:FMResource:4, Elementium Nugget
+ForbiddenMagic:Bloodwell, Bloody Scrivener's Tools
+ForbiddenMagic:EldritchOrb, Eldritch Blood Orb
+ForbiddenMagic:Boundwell, Bound Scribing Tools
+ForbiddenMagic:BloodRapier, Rapier of the Strix
+ForbiddenMagic:Crystalwell, Crystal Scribing Tools
+ForbiddenMagic:Primewell, Primal Scribing Tools
+ForbiddenMagic:RidingCrop, Riding Crop
+ForbiddenMagic:SubCollar:0, Collar of Pain
+ForbiddenMagic:RingNutrition, Ring of Nutrition
+ForbiddenMagic:TaintFruit, Tainted Fruit
+ForbiddenMagic:TaintCoal, Hexcoal
+ForbiddenMagic:BlinkFocus, Wand Focus: Blink
 foundry:foundryComponent:0, Stone Gear
 foundry:foundryComponent:1, Heating Coil
 foundry:foundryComponent:2, Refractory Clay
@@ -10226,8 +10257,27 @@ NotEnoughWands:ProtectionWand, Protection Wand
 NotEnoughWands:MasterProtectionWand, Master Protection Wand
 NotEnoughWands:DisplacementWand, Displacement Wand
 NotEnoughWands:AccelerationWand, Acceleration Wand
-Quadrum:woodsplinter, item.woodsplinter.name
+Quadrum:birchwoodsplinter, item.birchwoodsplinter.name
+Quadrum:cypresswoodsplinter, item.cypresswoodsplinter.name
+Quadrum:eucalyptuswoodsplinter, item.eucalyptuswoodsplinter.name
 Quadrum:godstear, item.godstear.name
+Quadrum:darkoakwoodsplinter, item.darkoakwoodsplinter.name
+Quadrum:sakurawoodsplinter, item.sakurawoodsplinter.name
+Quadrum:autumnwoodsplinter, item.autumnwoodsplinter.name
+Quadrum:junglewoodsplinter, item.junglewoodsplinter.name
+Quadrum:alderwoodsplinter, item.alderwoodsplinter.name
+Quadrum:rowanwoodsplinter, item.rowanwoodsplinter.name
+Quadrum:silverwoodsplinter, item.silverwoodsplinter.name
+Quadrum:hawthornwoodsplinter, item.hawthornwoodsplinter.name
+Quadrum:redwoodsplinter, item.redwoodsplinter.name
+Quadrum:greatwoodsplinter, item.greatwoodsplinter.name
+Quadrum:sprucewoodsplinter, item.sprucewoodsplinter.name
+Quadrum:acaciawoodsplinter, item.acaciawoodsplinter.name
+Quadrum:oakwoodsplinter, item.oakwoodsplinter.name
+Quadrum:baldcypresswoodsplinter, item.baldcypresswoodsplinter.name
+Quadrum:firwoodsplinter, item.firwoodsplinter.name
+Quadrum:taintwoodsplinter, item.taintwoodsplinter.name
+Quadrum:eacaciawoodsplinter, item.eacaciawoodsplinter.name
 reccomplex:block_selector, Block Selector
 reccomplex:block_selector_floating, Floating Block Selector
 reccomplex:inventory_generation_tag, Inventory Generation Tag

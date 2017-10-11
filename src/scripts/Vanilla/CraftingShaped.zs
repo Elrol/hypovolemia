@@ -25,9 +25,10 @@ recipes.addShaped(logicCircuit, [[goldIngot, basicCircuit]]);
 recipes.addShaped(cardBox, [[paper, paper, paper], [paper, null, paper], [paper, paper, paper]]);
 recipes.addShaped(BMWoodAsh, [[goldIngot, goldIngot, goldIngot], [goldIngot, woodAsh, goldIngot], [goldIngot, goldIngot,goldIngot]]);
 recipes.addShaped(growthSigil, [[null, endstone, null], [endstone, slateBlank, endstone], [null, endstone, null]]);
-
-
-
+recipes.addShaped(elevator_white, [[wool, wool, wool], [wool, circuit, wool], [wool, wool, wool]]);
+recipes.addShaped(whitewool * 4, [[sheepEssence,sheepEssence], [sheepEssence,sheepEssence]]);
+recipes.addShaped(searedBricks, [[searedBrick,searedBrick], [searedBrick, searedBrick]]);
+recipes.addShaped(heartMiniGreen, [[gaia, emeraldApple, gaia], [emeraldApple, heartMiniYellow, emeraldApple], [gaia, emeraldApple, gaia]]);
 
 recipes.addShaped(redcobble, [[fireEssence, fireEssence], [fireEssence, earthEssence]]);
 recipes.addShaped(limestone, [[waterEssence, waterEssence], [waterEssence, earthEssence]]);
@@ -36,4 +37,5 @@ recipes.addShaped(marble, [[airEssence, airEssence], [airEssence, earthEssence]]
 recipes.addShaped(DSU, [[neutroingot, neutroblock, neutroingot],[upgradeT6, upgradeT6, upgradeT6],[upgradeT6, MFRMachineblock, upgradeT6]]);
 
 
-//recipes.addShaped(<minecraft:skull:3>.withTag({SkullOwner: "Sirwill"}), [[sirWillWeed, sirWillWeed, sirWillWeed], [redrock,skull, redrock],[sirWillWeed, sirWillWeed, sirWillWeed]]);
+recipes.addShaped(<minecraft:skull:3>.withTag({SkullOwner: "Sirwill"}), [[sirWillWeed, sirWillWeed, sirWillWeed], [redrock,skull, redrock],[sirWillWeed, sirWillWeed, sirWillWeed]]);
+recipes.addShaped(<minecraft:skull:3>.withTag({SkullOwner: "Elrol_Arrowsend"}), [[arrow, arrow, arrow], [bow, skull, bow],[arrow, arrow, arrow]]);

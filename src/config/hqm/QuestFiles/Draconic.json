@@ -338,7 +338,7 @@
       "y": 190,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:100000,Head:501,BaseAttack:51,Built:1b,HarvestLevel:5,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:100000,Modifiers:18},display:{Name:\"§fInfinity Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:100000,Head:501,BaseAttack:51,Built:1b,HarvestLevel:5,Attack:51,RenderHead:501,ModDurability:0.0f,Handle:501,Broken:0b,Shoddy:0.0f,RenderHandle:501,Accessory:501,MiningSpeed:6000,RenderAccessory:501,Unbreaking:10,Damage:0,BonusDurability:0,TotalDurability:100000,Modifiers:18},display:{Name:\"ï¿½fInfinity Pickaxe\"}}"
       },
       "prerequisites": [
         "A ritual, again."
